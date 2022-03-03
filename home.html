@@ -4,42 +4,339 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
+ <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" >
+    <link href="css/icon.css" rel="stylesheet" >
+    <link href="css/searchBar.css" rel="stylesheet" >
 
-    <title>Home</title>
+    <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+$(function () {
+  $('.selectpicker').selectpicker();
+});
+</script>   
+<title>Home</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          1 of 2
-        </div>
-        <div class="col">
-          2 of 2
+
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://www.grupomathiesen.com/wp-content/uploads/2020/07/LOGO-MATHIESEN.png" alt="Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nosotros
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark subMenuFullContent" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Visión y Compromiso</a></li>
+                <li><a class="dropdown-item" href="#">Cultura</a></li>
+                <li><a class="dropdown-item" href="#">Historia</a></li>
+                <li><a class="dropdown-item" href="#">Equipo</a></li>
+                <li><a class="dropdown-item" href="#">Excelencia operacional</a></li>
+                <li><a class="dropdown-item" href="#">Innovación</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Producto e Industrias
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark subMenuFullContent" aria-labelledby="navbarDarkDropdownMenuLink">
+                <div class="group-list">
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                </div>
+                <div class="group-list">
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                </div>
+                <div class="group-list">
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                </div>
+             </ul>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link"href="#">Empresas Productivas</a></li>
+            <li class="nav-item dropdown"><a class="nav-link"href="#">Aplicaciones </a></li>
+            <li class="nav-item dropdown"><a class="nav-link"href="#">Carrera</a></li>
+            <li class="nav-item dropdown"><a class="nav-link"href="#">Noticias</a></li>
+            <li><button type="button" class="btn btn-outline-secondary">Secondary</button>   </li>
+           
+          </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          1 of 3
+    </nav>
+    <div class="container-flow header">
+    </div>
+      <div class="slider-home">
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://dummyimage.com/1320x520/666/a6a6ab.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+               <!--<h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>-->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://dummyimage.com/1320x520/666/a6a6ab.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+               <!-- <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>-->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://dummyimage.com/1320x520/666/a6a6ab.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+               <!-- <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>-->
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="col">
-          2 of 3
+      </div> 
+      
+        <div class="container mt-48">
+          <div class="row">
+            <div class="col-12 titleSearch">
+             <h1> Descubre nuestro cátalogo</h1>
+             <p>Descubre y compra en nuestro catálogo con la más surtida oferta y calidad de materias prímimas</p>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          3 of 3
+
+    <div class="container-flow fullBanner-sm mt-48">
+      
+      <div class="s130">
+        <form>
+          <div class="inner-form">
+            <div class="input-field first-wrap">
+              <div class="svg-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+              </div>
+              <input id="search" type="text" placeholder="What are you looking for?" />
+            </div>
+            <div class="input-field second-wrap">
+              <button class="btn-search" type="button">BUSCAR</button>
+            </div>
+          </div>
+          <div class="row searchLink">
+            <div class="col-12 "> 
+              <span class="ml-4">Búsquedas populares</span> 
+            <button type="button" class="btn btn-outline-primary ml-4 btn-sm">Búsqueda popular</button> 
+            <button type="button" class="btn btn-outline-primary ml-4 btn-sm">Búsqueda popular</button>
+            <button type="button" class="btn btn-outline-primary ml-4 btn-sm">Búsqueda popular</button> 
+          </div>
+          
         </div>
+        </form>
+      </div>
+
+    </div>
+   
+   
+
+  <div class="container  mt-48">
+<div class="row">
+  <div class="col">
+    <h2 class="title-Section2"> Sectores industriales</h2>
+  </div>
+</div>
+    <div class="row mt-24 ">
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-alimentos"></i></span>
+        <span class="categoryDescriton">Alimentos</span>
+      </div>
+     <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-construccion"></i></span>
+        <span class="categoryDescriton">Construcción</span>
+      </div>
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-cuidado-del-hogar"></i></span>
+        <span class="categoryDescriton">Cuidado y Limpieza Hogar y Automóvil</span>
+      </div>
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-cuidado-personal"></i></span>
+        <span class="categoryDescriton">Cuidado personal</span>
+      </div>
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-curtiembre"></i></span>
+        <span class="categoryDescriton">Curtiembres</span>
+      </div>
+      <div class="col iconCat">
+        <span class="categoryIcon"><i class="icon icon-industria-farmaceutica"></i></span>
+        <span class="categoryDescriton">Industria Farmacéutica</span>
       </div>
     </div>
-    
+
+    <div class="row mt-24 ">
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-alimentos"></i></span>
+        <span class="categoryDescriton">Alimentos</span>
+      </div>
+     <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-alimentos"></i></span>
+        <span class="categoryDescriton">Pinturas</span>
+      </div>
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-alimentos"></i></span>
+        <span class="categoryDescriton">Pinturas</span>
+      </div>
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-alimentos"></i></span>
+        <span class="categoryDescriton">Pinturas</span>
+      </div>
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-alimentos"></i></span>
+        <span class="categoryDescriton">Pinturas</span>
+      </div>
+      <div class="col  iconCat">
+        <span class="categoryIcon"><i class="icon icon-alimentos"></i></span>
+        <span class="categoryDescriton">Pinturas</span>
+      </div>
+    </div>
+
+  </div>
+  <div class="container  mt-48">
+    <div class="row">
+      <div class="col">
+        <h2 class="title-Section2"> Últimas Noticias</h2>
+      </div>
+    </div>
+
+    <div class="row mt-24">
+      <div class="col" style="padding:24px">
+        <div class="card" style="width:100%">
+          <img src="https://dummyimage.com/390x270/666/a6a6ab.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mathiesen Argentina Recertifica Norma de Inocuidad Alimentaria</h5>
+            <p class="card-text">La Iniciativa Global de Inocuidad Alimentaria (GFSI “Global Food Safety Initiative”) se trata de una fundación</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col" style="padding:24px">
+        <div class="card" style="width:100%">
+          <img src="https://dummyimage.com/390x270/666/a6a6ab.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¿Dónde están mis siliconas? - Demanda de Silicio</h5>
+            <p class="card-text">Actualmente, muchos consumidores se están preguntando, ¿qué pasó con sus siliconas?, pues se encuentran con problemas</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col" style="padding:24px">
+        <div class="card" style="width:100%">
+          <img src="https://dummyimage.com/390x270/666/a6a6ab.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sistema de membranas de osmosis inversa</h5>
+            <p class="card-text">Resumen Webinar Grupo Mathiesen realizó exitosamente el 2 de diciembre pasado el Webinar titulado Sistemas de</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+ 
+
+
+  <div class="container-fluid preFooter overlay-gradient">
+    <div class="row">
+<div class="col-12">
+  <h2 style="color:#fff;text-align: center; ">
+    Más de 80 años
+entregando Soluciones
+de Abastecimiento que
+impactan la productividad
+de tu negocio
+  </h2>.
+</div>
+    </div>
+  </div>
+
+
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+      <div class="container py-4">
+          <div class="row gy-4 gx-5">
+              <div class="col-lg-4 col-md-6">
+                  <h5 class="h1 text-white"><img src="images/logo-ondark.png" style="width:75%;"/></h5>
+                  <p class="small text-muted">Velamos por el abastecimiento de insumos a las diferentes industrias y mercados en los cuales participamos, contribuyendo al negocio de nuestros clientes y al abastecimiento oportuno del aparato productivo del país.</p>
+      </div>
+              <div class="col-lg-2 col-md-6">
+                  <h5 class="text-white mb-3">Ayuda</h5>
+                  <ul class="list-unstyled text-muted">
+                      <li><a href="#">Contáctanos</a></li>
+                      <li><a href="#">Politicas de privacidad</a></li>
+                      <li><a href="#">Canal ético</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                  <h5 class="text-white mb-3">Comunidad</h5>
+                  <ul class="list-unstyled text-muted">
+                  <li><a href="#">Siguenos en linkedin</a></li>
+                     
+                  </ul>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <h5 class="text-white mb-3">suscribete</h5>
+                  <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                  <form action="#">
+                      <div class="input-group mb-3">
+                          <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                          <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+
+ 
+
+
+     
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+ <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
