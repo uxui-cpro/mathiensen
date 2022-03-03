@@ -251,13 +251,11 @@ small, .text_small {font-size: 0.8rem;}
   position: absolute;
   right: 0.8rem;
   top: 0.5rem;
-  color: #0f0;
   transition: all 0.1s ease-in-out;
   width: 45px;
   height: 45px;
 }
 .searchLink{
-  width: 60%;
   margin-top: 24px;
 }
 
@@ -450,7 +448,7 @@ margin-top: 0;
 .cont-product-cardInfo :first-child{
   margin-top: 0;
  }
- 
+
 .productItem{
  width:40%;
   float: left;
