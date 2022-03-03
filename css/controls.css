@@ -54,11 +54,11 @@
   background: #ccc; }
 
 .control input:checked ~ .control__indicator {
-  background: #7e0cf5; }
+  background: var(--primary-500); }
 
 .control:hover input:not([disabled]):checked ~ .control__indicator,
 .control input:checked:focus ~ .control__indicator {
-  background: #8b24f6; }
+  background:  var(--primary-600); }
 
 .control input:disabled ~ .control__indicator {
   background: #e6e6e6;

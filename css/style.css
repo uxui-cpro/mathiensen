@@ -195,7 +195,7 @@ small, .text_small {font-size: 0.8rem;}
 }
 
 .navbar-nav li{
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 
@@ -464,6 +464,10 @@ border: solid 1px #c3c3c3;
   width:100%;
   float: left;
   border-bottom: solid 1px #c3c3c3;
+}
+
+.accordion {
+  margin-top: 24px;
 }
 
 @media only screen and (max-width: 991px) {
