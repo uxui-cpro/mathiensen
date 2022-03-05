@@ -21,7 +21,7 @@ $(function () {
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg navbar-fixed">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="https://www.grupomathiesen.com/wp-content/uploads/2020/07/LOGO-MATHIESEN.png" alt="Logo" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,12 +34,16 @@ $(function () {
                 Nosotros <i style="font-weight:bold;" class="icon icon-chevron-down"></i>
               </a>
               <ul class="dropdown-menu dropdown-menu-dark subMenuFullContent" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Visión y Compromiso</a></li>
-                <li><a class="dropdown-item" href="#">Cultura</a></li>
-                <li><a class="dropdown-item" href="#">Historia</a></li>
-                <li><a class="dropdown-item" href="#">Equipo</a></li>
-                <li><a class="dropdown-item" href="#">Excelencia operacional</a></li>
-                <li><a class="dropdown-item" href="#">Innovación</a></li>
+                
+                <div class="group-list-margin">
+                <li class="submenu"><a class="dropdown-item" href="#">Visión y Compromiso</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Cultura</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Historia</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Equipo</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Excelencia operacional</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Innovación</a></li>
+                </div>
+               
               </ul>
             </li>
 
@@ -48,25 +52,25 @@ $(function () {
                 Producto e Industrias <i style="font-weight:bold;" class="icon icon-chevron-down"></i>
               </a>
               <ul class="dropdown-menu dropdown-menu-dark subMenuFullContent" aria-labelledby="navbarDarkDropdownMenuLink">
-                <div class="group-list">
-                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
-                  <li><a class="dropdown-item" href="#">Cuidado personal</a></li>
-                  <li><a class="dropdown-item" href="#">Industria Química y aditivos y construcción</a></li>
-                  <li><a class="dropdown-item" href="#">Papeles y Celulosa</a></li>
-                  <li><a class="dropdown-item" href="#">Resinas Plásticas</a></li>
+                <div class="group-list group-list-marginFirst">
+                  <li class="submenu"><a class="dropdown-item" href="#">Alimentos</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Cuidado personal</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Industria Química y aditivos </br> y construcción</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Papeles y Celulosa</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Resinas Plásticas</a></li>
                 </div>
                 <div class="group-list">
-                  <li><a class="dropdown-item" href="#">Construcción</a></li>
-                  <li><a class="dropdown-item" href="#">Cuidado y Limpieza Hogar y Automóvil</a></li>
-                  <li><a class="dropdown-item" href="#">Mantenimiento Industrial</a></li>
-                  <li><a class="dropdown-item" href="#">Pinturas, Tintas y Adhesivos</a></li>
-                  <li><a class="dropdown-item" href="#">Tratamiento de aguas</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Construcción</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Cuidado y Limpieza Hogar </br> y Automóvil</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Mantenimiento Industrial</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Pinturas, Tintas y Adhesivos</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Tratamiento de aguas</a></li>
                 </div>
                 <div class="group-list">
-                  <li><a class="dropdown-item" href="#">Curtiembres</a></li>
-                  <li><a class="dropdown-item" href="#">Industria Farmacéutica</a></li>
-                  <li><a class="dropdown-item" href="#">Minería</a></li>
-                  <li><a class="dropdown-item" href="#">Polímeros y Elastómeros</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Curtiembres</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Industria Farmacéutica</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Minería</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Polímeros y Elastómeros</a></li>
                 </div>
              </ul>
             </li>
@@ -74,7 +78,7 @@ $(function () {
             <li class="nav-item dropdown"><a class="nav-link"href="#">Aplicaciones </a></li>
             <li class="nav-item dropdown"><a class="nav-link"href="#">Carrera</a></li>
             <li class="nav-item dropdown"><a class="nav-link"href="#">Noticias</a></li>
-            <li><button type="button" class="btn btn-outline-secondary">Contácto</button>   </li>
+            <li class="marginButtonNav"><button type="button"  style="margin-top: -5px;"class="btn btn-outline-secondary btn-outline-secondary-mathiense">Contácto</button>   </li>
            
           </ul>
         </div>
@@ -286,7 +290,6 @@ de tu negocio
 </div>
     </div>
   </div>
-
 
     <!-- FOOTER -->
     <footer class="w-100 py-4 flex-shrink-0">
