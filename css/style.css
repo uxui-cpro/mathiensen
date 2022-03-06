@@ -57,6 +57,12 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: #000000;
+  
+  
+    background-image: url(https://d1txzujwmvdrgl.cloudfront.net/prd/dist/assets/register_background.45241592a5dd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 p {margin-bottom: 1rem;}
