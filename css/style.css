@@ -540,7 +540,6 @@ margin-top: 0;
 
 .contPdp{
   width: 100%;
-  float: left;
   padding: 16px;
   box-sizing: border-box;
   background-color: #fff;
@@ -601,6 +600,7 @@ float: left;
 .productItem2{
  
   padding: 8px;
+  float:left;
  
   
 }
@@ -793,7 +793,30 @@ float: left;
 .marginButtonNav {
   margin-left: 70px;
 }
-
+.contPdp h1{
+  font-size:var(--h4);
+  color: var(--gray-800);
+  float: left;
+  display:block;
+  width: 100%;
+  margin-bottom: 0;
+}
+.pdpCat {
+  font-size:var(--bodySm);
+  color: var(--acent-500);
+  margin-top: 0;
+  float: left;
+  display:block;
+  width: 100%;
+}
+.pdpId {
+  font-size:var(--bodySm);
+  color: var(--gray-600);
+  margin-top: 0;
+  float: left;
+  display:block;
+  width: 100%;
+}
 
 @media only screen and (max-width: 1280px) {
   
