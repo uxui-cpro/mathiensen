@@ -59,11 +59,24 @@ body {
   color: #000000;
   
   
-    background-image: url(../images/bg-abstract2.png);
-    background-size: cover;
-   /* background-repeat: no-repeat;
-    background-position: center center;*/
 }
+
+.bodyBackgraund1{
+
+  background-image: url(../images/bg-abstract2.png);
+  background-size: cover;
+ /* background-repeat: no-repeat;
+  background-position: center center;*/
+}
+
+.bodyRegistro {
+  background-image: url(../images/bg-abstract1.png) ; 
+  background-position: center center;
+    background-repeat: no-repeat;
+  background-size: 300px 300px; 
+  height:100vh;
+}
+
 
 p {margin-bottom: 1rem;}
 
@@ -197,6 +210,7 @@ small, .text_small {font-size: var(--overline)}
   z-index: 99;
   -webkit-box-shadow: 1px 5px 10px -2px rgba(0,0,0,0.2); 
   box-shadow: 1px 5px 10px -2px rgba(0,0,0,0.2);
+  top: 0;
 }
 .navbar-toggler{
   background-color:var(--gray-200) ;
@@ -410,7 +424,7 @@ a {
 a:hover, a:focus {
   text-decoration: none;
 }
-
+/*
 .form-control {
   background: #212529;
   border-color: #545454;
@@ -418,7 +432,7 @@ a:hover, a:focus {
 
 .form-control:focus {
   background: #212529;
-}
+}*/
 
 footer {
   background: var(--primary-900);
@@ -816,6 +830,66 @@ float: left;
   float: left;
   display:block;
   width: 100%;
+}
+
+.form-control, .form-select {
+  background:var(--primary-50)!important;
+  border-color: var(--primary-100)!important;
+  height: 50px;
+  
+}
+.form-group label {
+  color: var(--acent-500)
+}
+.form-label {
+  color: var(--acent-500)
+}
+form .col {
+  margin: 15px 0;
+}
+
+textarea.form-control {
+  height: 350px;
+  margin-bottom: 24px;
+}
+
+.contContact{
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  box-shadow: 0 1px 5px 1px #f1f1f1;
+  border-radius: 6px;
+}
+
+.contRegistro{
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+  border-radius: 6px;
+}
+
+.registroItem{
+  width:35%;
+  display: block;
+  height: 150px;
+  margin: 35px;
+  border: solid 1px var(--acent-300);
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 5px 1px #f1f1f1;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.registroItem h1{
+  color: var(--acent-500);
+  font-size: var(--h4);
+  font-weight: 600;
+  display: block
 }
 
 @media only screen and (max-width: 1280px) {
