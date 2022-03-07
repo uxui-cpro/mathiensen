@@ -607,7 +607,9 @@ text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
 .accordion-header  h2{
 margin-top: 0;
 }
-
+.btn-search{
+  font-weight: 800;
+}
 
 .cat-sumary {
   width: 100%;
@@ -957,8 +959,8 @@ form .col {
 }
 
 textarea.form-control {
-  height: 350px;
-  margin-bottom: 24px;
+  height: 150px;
+  margin-bottom: 60px;
 }
 
 .contContact{
