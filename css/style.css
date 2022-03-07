@@ -70,11 +70,11 @@ body {
 }
 
 .bodyRegistro {
-  background-image: url(../images/bg-abstract1.png) ; 
-  background-position: center center;
-    background-repeat: no-repeat;
-  background-size: 300px 300px; 
-  height:100vh;
+  background-image: url(../images/bg-abstract3.png)!important ; 
+  background-position: top right!important;
+    background-repeat: no-repeat!important;
+background-size:45% 75%;
+
 }
 
 
@@ -873,22 +873,54 @@ textarea.form-control {
 }
 
 .registroItem{
-  width:35%;
+  width:100%;
   display: block;
   height: 150px;
-  margin: 35px;
+  margin-top: 35px;
   border: solid 1px var(--acent-300);
   padding: 30px;
   box-sizing: border-box;
   box-shadow: 0 1px 5px 1px #f1f1f1;
     border-radius: 6px;
     cursor: pointer;
+    position:relative;
+   
+  transition: 0.3s;
+}
+
+.registroItem:hover{
+background-color:var(--acent-500); 
+color: #fff !important;
+}
+
+
+.registroItem:hover > h1 { color: #fff; }
+.registroItem:hover > svg { color: #fff; }
+.registroItem:hover > .subtitle-r { color: #fff; }
+
+
+.registroItem > svg {
+  color: rgb(51, 51, 51);
+  transform: rotate(
+90deg);
+position: absolute;
+right:13px;
+top: 64px;
 }
 
 .registroItem h1{
   color: var(--acent-500);
   font-size: var(--h4);
-  font-weight: 600;
+  font-weight: 450;
+  display: block;
+  margin-bottom: 4px;
+    margin-top: 14px;
+}
+
+.subtitle-r {
+  color: var(--gray-700);
+  font-size: var(--bodySm);
+  font-weight: 450;
   display: block
 }
 
