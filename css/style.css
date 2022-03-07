@@ -51,6 +51,9 @@
 
 html {font-size: 100%;} /*16px*/
 
+
+
+button:focus, button:active {outline:0!important; border: none!important;-webkit-appearance: none!important;}
 body {
   background: var(--main-bg-color);
   font-family: var(--font-family);
@@ -205,6 +208,23 @@ small, .text_small {font-size: var(--overline)}
   color: var(--acent-500);
     border-color: var(--acent-500);
 }
+
+
+.btn-outline-secondary-mathiense:active {
+  color: #fff;
+    border-color: var(--acent-500);
+    background-color: var(--acent-500);;
+}
+.btn-outline-secondary-mathiense:focus {
+  color: #fff;
+    border-color: var(--acent-500);
+    background-color: var(--acent-500);
+    outline: none;
+}
+
+.btn-check:active+.btn-outline-secondary:focus, .btn-check:checked+.btn-outline-secondary:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus, .btn-outline-secondary:active:focus {
+  box-shadow: none;
+}
 /* Home */
 .navbar-fixed{
   position: fixed;
@@ -216,6 +236,7 @@ small, .text_small {font-size: var(--overline)}
   top: 0;
 }
 .navbar-toggler{
+  padding: 0.6rem 0.75rem;
   background-color:var(--gray-800) ;
   color:var(--gray-200) ;
 }
@@ -269,6 +290,7 @@ small, .text_small {font-size: var(--overline)}
     background-color: var(--acent-500);
     border-color: var(--acent-500);
 }
+
 
 .navbar-collapse{
   flex-grow: unset!important;
@@ -442,9 +464,16 @@ a:hover, a:focus {
   border-color: #545454;
 }
 
-.form-control:focus {
-  background: #212529;
-}*/
+*/
+
+.form-control:focus, .form-select:focus {
+  box-shadow: none;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
 
 footer {
   background: var(--primary-900);
@@ -900,6 +929,21 @@ textarea.form-control {
   border-radius: 6px;
 }
 
+
+.imgContact img{
+  width:80%;
+  margin-top: 80px;
+}
+
+.formContact{
+  float: left;
+}
+
+.imgContact {
+  float: left;
+  text-align: center;
+  
+}
 .contRegistro{
   width: 100%;
   padding: 100px 16px;
@@ -990,8 +1034,18 @@ top: 64px;
   display: block
 }
 
+.card{
+  height: inherit;
+}
+
+input:focus, textarea:focus, select:focus button:focus{
+  outline: none;
+  box-shadow:none;
+}
 @media only screen and (max-width: 1280px) {
-  
+  .responsiveHide{
+    display: block;
+  }
   .group-list{
     width: 25%;
   }
@@ -1011,11 +1065,23 @@ top: 64px;
     margin-right: 30px;
   }
   
-  
+  .imgContact{
+    display: none;
+  }
 
 }
 
+@media only screen and (max-width: 1100px) {
+  .responsiveHide{
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 991px) {
+  .responsiveHide{
+    display: none;
+  }
+ 
   .group-list{
     width: unset!important; 
     float:unset!important;
