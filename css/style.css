@@ -834,16 +834,18 @@ float: left;
 }
 
 .form-control, .form-select {
-  background:var(--primary-50)!important;
+ /* background:var(--primary-50)!important;*/
   border-color: var(--primary-100)!important;
   height: 50px;
   
 }
 .form-group label {
-  color: var(--acent-500)
+  color: var(--gray-700);
+  font-weight: 700;
 }
 .form-label {
-  color: var(--acent-500)
+  color: var(--gray-700);
+  font-weight: 700;
 }
 form .col {
   margin: 15px 0;
