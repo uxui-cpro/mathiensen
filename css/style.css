@@ -1039,7 +1039,10 @@ font-weight: 700;
           }
   
  
-
+          .accordion-button:focus {
+           
+            box-shadow: none;
+        }
 .registroItem > svg {
   color: rgb(51, 51, 51);
   transform: rotate(
