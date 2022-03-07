@@ -222,6 +222,8 @@ small, .text_small {font-size: var(--overline)}
     outline: none;
 }
 
+
+
 .btn-check:active+.btn-outline-secondary:focus, .btn-check:checked+.btn-outline-secondary:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus, .btn-outline-secondary:active:focus {
   box-shadow: none;
 }
@@ -290,8 +292,27 @@ small, .text_small {font-size: var(--overline)}
     background-color: var(--acent-500);
     border-color: var(--acent-500);
 }
+.soft-button:active {
+  color: #fff;
+    border-color: var(--acent-500);
+    background-color: var(--acent-500);;
+}
+
+.soft-button:focus {
+  color: #fff;
+    border-color: var(--acent-500);
+    background-color: var(--acent-500);
+    outline: none;
+    box-shadow: none;
+}
 
 
+
+element.style {
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
 .navbar-collapse{
   flex-grow: unset!important;
 }
@@ -1003,9 +1024,19 @@ color: #fff !important;
   }
   
   .pagNoticia h2{
-font-size: var(--bodySm);
+font-size: var(--subTitle);
 font-weight: 700;
   }
+
+  .contNoticia span{
+    font-size: var(--bodyLg);
+    font-weight: 700;
+    color: var(--acent-500)
+      }
+
+      .contNoticia h2{
+        margin-bottom: 24px;
+          }
   
  
 
@@ -1078,6 +1109,10 @@ input:focus, textarea:focus, select:focus button:focus{
 }
 
 @media only screen and (max-width: 991px) {
+  
+  .contNoticia{
+    padding: 16px 16px;
+  }
   .responsiveHide{
     display: none;
   }
