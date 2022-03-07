@@ -76,7 +76,8 @@ body {
 background-size:45% 75%;
 
 }
-
+a { color:var(--acent-500)}
+a:hover { color:var(--acent-500)}
 
 p {margin-bottom: 1rem;}
 
@@ -866,10 +867,11 @@ textarea.form-control {
 
 .contRegistro{
   width: 100%;
-  padding: 16px;
+  padding: 100px 16px;
   box-sizing: border-box;
   margin-bottom: 48px;
   border-radius: 6px;
+  position:relative;
 }
 
 .registroItem{
@@ -884,7 +886,7 @@ textarea.form-control {
     border-radius: 6px;
     cursor: pointer;
     position:relative;
-   
+    background-color: #fff;
   transition: 0.3s;
 }
 
