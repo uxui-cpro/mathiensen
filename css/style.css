@@ -204,10 +204,31 @@ small, .text_small {font-size: var(--overline)}
 .mr-64{
   margin-right: 64px;
 }
+.btn-outline-secondary-mathiense-registro {
+  color: #fff;
+    border-color: #fff;
+}
+
+
+.btn-outline-secondary-mathiense-registro :active {
+  color: #fff;
+    border-color: var(--acent-500);
+    background-color: var(--acent-500);;
+}
+.btn-outline-secondary-mathiense-registro :focus {
+  color: #fff;
+    border-color: var(--acent-500);
+    background-color: var(--acent-500);
+    outline: none;
+}
+
 .btn-outline-secondary-mathiense {
   color: var(--acent-500);
     border-color: var(--acent-500);
 }
+
+
+
 
 
 .btn-outline-secondary-mathiense:active {
@@ -284,13 +305,13 @@ small, .text_small {font-size: var(--overline)}
 }
 .soft-button {
   color: var(--acent-600);
-    background-color: var(--acent-50);
+    background-color: unset;
     border-color: var(--acent-600);
 }
 .soft-button:hover {
-  color:#fff;
-    background-color: var(--acent-500);
-    border-color: var(--acent-500);
+  color: #fff;
+  border-color: var(--acent-500);
+  background-color: var(--acent-500);;
 }
 .soft-button:active {
   color: #fff;
@@ -580,6 +601,7 @@ text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  margin-top: 64px;
 }
 
 .accordion-header  h2{

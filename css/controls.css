@@ -39,7 +39,7 @@
 
 .control__indicator {
   position: absolute;
-  top: 2px;
+  top: 5px;
   left: 0;
   height: 20px;
   width: 20px;
@@ -54,11 +54,11 @@
   background: #ccc; }
 
 .control input:checked ~ .control__indicator {
-  background: var(--primary-500); }
+  background: var(--acent-500); }
 
 .control:hover input:not([disabled]):checked ~ .control__indicator,
 .control input:checked:focus ~ .control__indicator {
-  background:  var(--primary-600); }
+  background:  var(--acent-600); }
 
 .control input:disabled ~ .control__indicator {
   background: #e6e6e6;
