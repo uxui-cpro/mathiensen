@@ -620,7 +620,7 @@
  .s130 form {
    width: 100%;
    max-width: 790px;
-   padding-top: 64px;
+   padding-top: -4px;
  }
  
  .s130 form .inner-form {

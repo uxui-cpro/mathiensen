@@ -21,15 +21,81 @@
 <body>
 
  
+  <div class="topBar">
+  
+    <div class="loginBox">
+      <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+      </svg>
+      <div class="loginBox-text">
+      <span class="hola">¡Hola!</span>
+     <span class="sesion"> <a href="login.html">Inicia sesión</a> o <a href="registro1.html">regístrate</a> </span>
+    </div>
+    </div>
+<scrip>
+
+</scrip>
+<div class="contriesBox">
+<span class="msgInfo">Filtra el contenido por país</span>
+<div id="AR-sel" class="contriesBox-item contriesBox-selected">
+  <span class="flag">🇦🇷</span>
+  <span class="nameContrie">Argentina</span>  
+</div>
+</div>
+<div class="contriesBox-option" style="display:none">
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+<div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+</div>
+
+    <select style="display:none"class="contries select-css" name="countries">
+      <option value="AR">🇦🇷&emsp;Argentina</option>
+      <option value="BO">🇧🇴&emsp;Bolivia</option>
+      <option value="BR">🇧🇷&emsp;Brasil</option>
+      <option value="CL">🇨🇱&emsp;Chile</option>
+      <option value="CH">🇨🇳&emsp;China</option>
+      <option value="CO">🇨🇴&emsp;Colombia</option>
+      <option value="CR">🇨🇴&emsp;Costa Rica</option>
+      <option value="EC">🇪🇨&emsp;Ecuador</option>
+      <option value="ES">🇪🇸&emsp;España</option>
+      <option value="GU">🇬🇹&emsp;Guatemala</option>
+      <option value="HO">🇭🇳&emsp;Honduras</option>
+      <option value="ME">🇲🇽&emsp;México</option>
+      <option value="PA">🇵🇾&emsp;Paraguay</option>
+      <option value="PE">🇵🇪&emsp;Perú</option>
+      <option value="RD">🇩🇴&emsp;República Dominicana</option>
+      <option value="UR">🇺🇾&emsp;Uruguay</option>
+    
+      
+  </select>
+    
+  </div>
   <nav class="navbar navbar-expand-lg navbar-fixed">
+    
     <div class="container-fluid">
+     
       <a class="navbar-brand" href="home.html"><img src="https://www.grupomathiesen.com/wp-content/uploads/2020/07/LOGO-MATHIESEN.png" alt="Logo" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <i style="font-weight:bold; color:#fff;" class="icon icon-menu"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
         <ul class="navbar-nav">
-         <li class="nav-item dropdown">
+          <li class="nav-item dropdown" ><a class="nav-link"href="#">Nosotros</a></li>
+         <li class="nav-item dropdown" style="display:none">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Nosotros <i style="font-weight:bold;" class="icon icon-chevron-down"></i>
             
@@ -54,7 +120,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-dark subMenuFullContent" aria-labelledby="navbarDarkDropdownMenuLink">
               <div class="group-list group-list-marginFirst">
-                <li class="submenu"><a class="dropdown-item" href="plp.html">Alimentos</a></li>
+                <li class="submenu"><a class="dropdown-item" href="pdp.html">Alimentos</a></li>
                 <li class="submenu"><a class="dropdown-item" href="#">Cuidado personal</a></li>
                 <li class="submenu"><a class="dropdown-item" href="#">Industria Química y aditivos </br> y construcción</a></li>
                 <li class="submenu"><a class="dropdown-item" href="#">Papeles y Celulosa</a></li>
@@ -75,9 +141,9 @@
               </div>
            </ul>
           </li>
-          <li class="nav-item dropdown responsiveHide"><a class="nav-link "href="#">Empresas Productivas</a></li>
-          <li class="nav-item dropdown"><a class="nav-link"href="#">Aplicaciones </a></li>
-          <li class="nav-item dropdown"><a class="nav-link"href="#">Carrera</a></li>
+          <li class="nav-item dropdown responsiveHide" style="display:none"><a class="nav-link "href="#">Empresas Productivas</a></li>
+          <li class="nav-item dropdown" style="display:none"><a class="nav-link"href="#">Aplicaciones </a></li>
+          <li class="nav-item dropdown" style="display:none"><a class="nav-link"href="#">Carrera</a></li>
           <li class="nav-item dropdown"><a class="nav-link"href="#">Noticias</a></li>
           <li class="marginButtonNav"><a href="contacto.html"><button type="button"  style="margin-top: -5px;"class="btn btn-outline-secondary btn-outline-secondary-mathiense">Contácto</button></a>   </li>
          
@@ -86,7 +152,7 @@
     </div>
   </nav>
 
-  <nav aria-label="breadcrumb" style="margin-top:95px; margin-left: 28px;"> 
+  <nav aria-label="breadcrumb" style="margin-top:125px; margin-left: 28px;"> 
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="home.html">Página de inicio</a></li>
       <li class="breadcrumb-item"><a href="plp.html">Página de productos</a></li>
