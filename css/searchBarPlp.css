@@ -39,6 +39,15 @@
   right: 30px;
 }
 
+
+@media only screen and (max-width: 991px) {
+
+  .bbbootstrap form {
+    width: 80%;
+  
+  }
+}
+
 span {
   margin: 0;
   padding: 0;
