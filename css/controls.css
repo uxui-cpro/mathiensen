@@ -30,7 +30,7 @@
   padding-left: 30px;
   margin-bottom: 15px;
   cursor: pointer;
-  font-size: 18px; }
+  font-size: var(--bodySm) }
 
 .control input {
   position: absolute;
