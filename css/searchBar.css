@@ -744,6 +744,10 @@
  }
  
  @media screen and (max-width: 767px) {
+
+  .bbbootstrap form input[type="text"] {
+    font-size: var(--caption);
+  }
    .s130 form .inner-form .input-field.first-wrap .svg-wrapper {
      min-width: 40px;
      display: -ms-flexbox;

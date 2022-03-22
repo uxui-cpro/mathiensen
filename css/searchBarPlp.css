@@ -145,3 +145,24 @@ input[type="submit"] {
   background-image: -o-linear-gradient(#38a2f7, #2498f7);
   background-image: linear-gradient(#38a2f7, #2498f7)
 }
+
+
+@media screen and (max-width: 767px) {
+
+  .bbbootstrap form {
+    width: 90%;
+    right: unset!important;
+}
+
+.bbbootstrap form input[type="submit"] {
+  padding: 15px 10px;
+  font-size: var(--caption);
+}
+  .bbbootstrap form input[type="text"] {
+    font-size: var(--caption);
+    padding: 15px 15px!important;
+  }
+ 
+
+
+}

@@ -297,7 +297,34 @@ small, .text_small {font-size: var(--overline)}
 .group-list-marginFirst{
   margin-left: 28%;
 }
+.card-text{
+  font-size: var(--bodySm);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    height: 56px;
+line-height: 18px;}
 
+.card-title{
+
+  font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    height: 45px;
+    margin-bottom: 14px;
+    line-height: 22px;
+}
+.card-news img{
+  width:100%;
+  height: 185px;
+}
 
 .group-list:first{
   margin-left: 28%;
@@ -1492,7 +1519,34 @@ width: 100%;
 }
 
 @media only screen and (max-width: 991px) {
+  .s130 form{
+    padding-top: 30px;
+  }
   
+  .contriesBox {
+    float: left;
+    top: 5px;
+    border: none;
+   
+}
+
+.loginBox {
+margin-right: 10px;
+}
+ 
+.loginBox svg {
+ display: none;
+}
+ 
+  h1 {
+ font-size: var(--h4);
+  
+}
+
+.fullBanner-sm {
+  padding: 8px;
+
+}
   .center-card__body {
      width: 100%;
   }
