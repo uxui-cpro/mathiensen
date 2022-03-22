@@ -9,6 +9,7 @@
     <link href="css/style.css" rel="stylesheet" >
     <link href="css/icon.css" rel="stylesheet" >
     <link href="css/controls.css" rel="stylesheet" >
+    <link href="css/widgetSelect.css" rel="stylesheet">
 
     <!-- Load icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -454,5 +455,31 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+ 
+    <script>
+      const select = document.querySelector('#select');
+     const opciones = document.querySelector('#opciones');
+     const contenidoSelect = document.querySelector('#select .contenido-select');
+     const hiddenInput = document.querySelector('#inputSelect');
+     const navButton = document.querySelector('#navbar-toggler');
+     
+     document.querySelectorAll('#opciones > .opcion').forEach((opcion) => {
+       opcion.addEventListener('click', (e) => {
+         e.preventDefault();
+         contenidoSelect.innerHTML = e.currentTarget.innerHTML;
+         select.classList.toggle('active');
+         opciones.classList.toggle('active');
+         navButton.classList.toggle('active');
+         hiddenInput.value = e.currentTarget.querySelector('.titulo').innerText;
+       });
+     });
+     
+     select.addEventListener('click', () => {
+       select.classList.toggle('active');
+       opciones.classList.toggle('active');
+       navButton.classList.toggle('active');
+     });
+       </script>
+ 
   </body>
 </html>

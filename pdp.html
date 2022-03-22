@@ -11,6 +11,7 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/icon.css" rel="stylesheet">
   <link href="css/controls.css" rel="stylesheet">
+  <link href="css/widgetSelect.css" rel="stylesheet">
 
   <!-- Load icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -459,6 +460,30 @@
 
 
 
+  <script>
+    const select = document.querySelector('#select');
+   const opciones = document.querySelector('#opciones');
+   const contenidoSelect = document.querySelector('#select .contenido-select');
+   const hiddenInput = document.querySelector('#inputSelect');
+   const navButton = document.querySelector('#navbar-toggler');
+   
+   document.querySelectorAll('#opciones > .opcion').forEach((opcion) => {
+     opcion.addEventListener('click', (e) => {
+       e.preventDefault();
+       contenidoSelect.innerHTML = e.currentTarget.innerHTML;
+       select.classList.toggle('active');
+       opciones.classList.toggle('active');
+       navButton.classList.toggle('active');
+       hiddenInput.value = e.currentTarget.querySelector('.titulo').innerText;
+     });
+   });
+   
+   select.addEventListener('click', () => {
+     select.classList.toggle('active');
+     opciones.classList.toggle('active');
+     navButton.classList.toggle('active');
+   });
+     </script>
 
 
 
