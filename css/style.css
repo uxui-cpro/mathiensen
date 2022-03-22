@@ -1126,8 +1126,10 @@ textarea.form-control {
     height: 42px;
 }
 .loginBox{
-  float: right;
+  float: left;
   margin-right: 34px;
+  width: 201px;
+  height: 33px;
 }
 
 .loginBox svg{
@@ -1136,6 +1138,7 @@ textarea.form-control {
   margin-top: 7px;
   margin-right: 5px;
 color:#fff;
+
  
 }
 .loginBox-text {
@@ -1180,6 +1183,9 @@ color:#fff;
   top:0;
   color:#fff;
 }
+
+
+
 
 .contriesBox {
   float: right;
@@ -1532,6 +1538,7 @@ width: 100%;
 
 .loginBox {
 margin-right: 10px;
+width: 149px;
 }
  
 .loginBox svg {

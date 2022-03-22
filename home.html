@@ -9,7 +9,7 @@
     <link href="css/style.css" rel="stylesheet" >
     <link href="css/icon.css" rel="stylesheet" >
     <link href="css/searchBar.css" rel="stylesheet" >
-
+<link href="css/widgetSelect.css" rel="stylesheet">
     <!-- Load icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -22,6 +22,165 @@
   <body>
     <div class="topBar">
   
+      <div class="contTopBar">
+        <div class="contenedor-corp">
+          <form action="">
+            <div class="selectbox">
+              <div class="select" id="select">
+                <div class="contenido-select">
+                  <a href="#" class="opcion">
+                    <div class="contenido-opcion">
+                      <img src="images/flag-cl.png" alt="">
+                      <div class="textos">
+                        <h1 class="titulo">Chile</h1>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <i style="font-weight:bold;" class="icon icon-chevron-down"></i>
+              </div>
+      
+              <div class="opciones" id="opciones">
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-ar.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Argentina</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-bo.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Bolivia</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-br.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Brasil</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-cl.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Chile</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-cn.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">China</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-co.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Colombia</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-cr.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Costa Rica</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-ec.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Ecuador</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-es.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">España</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-gt.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Guatemala</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-hn.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Honduras</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-mx.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">México</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-py.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Paraguay</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-pe.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Perú</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-do.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">República Dominicana</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-uy.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Uruguay</h1>
+                    </div>
+                  </div>
+                </a>
+                               
+
+                
+
+              </div>
+            </div>
+      
+            <input type="hidden" name="pais" id="inputSelect" value="">
+          </form>
+      
+        </div>
+       
       <div class="loginBox">
         <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
           <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -32,10 +191,8 @@
        <span class="sesion"> <a href="login.html">Inicia sesión</a> o <a href="registro1.html">regístrate</a> </span>
       </div>
       </div>
-<scrip>
 
-</scrip>
-<div class="contriesBox">
+<div class="contriesBox" style="display: none;">
   <span class="msgInfo">Filtra el contenido por país</span>
   <select class="contries select-css" name="countries" style="height: 22px; margin-top:-4px">
     <option value="AR">🇦🇷&emsp;Argentina</option>
@@ -81,8 +238,12 @@
     <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
     </div>
   </div>
-  
 
+
+
+</div>
+
+ 
      
       
     </div>
@@ -91,7 +252,7 @@
       <div class="container-fluid">
        
         <a class="navbar-brand" href="home.html"><img src="https://www.grupomathiesen.com/wp-content/uploads/2020/07/LOGO-MATHIESEN.png" alt="Logo" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <i style="font-weight:bold; color:#fff;" class="icon icon-menu"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -414,7 +575,30 @@
 
 
  
-
+  <script>
+    const select = document.querySelector('#select');
+   const opciones = document.querySelector('#opciones');
+   const contenidoSelect = document.querySelector('#select .contenido-select');
+   const hiddenInput = document.querySelector('#inputSelect');
+   const navButton = document.querySelector('#navbar-toggler');
+   
+   document.querySelectorAll('#opciones > .opcion').forEach((opcion) => {
+     opcion.addEventListener('click', (e) => {
+       e.preventDefault();
+       contenidoSelect.innerHTML = e.currentTarget.innerHTML;
+       select.classList.toggle('active');
+       opciones.classList.toggle('active');
+       navButton.classList.toggle('active');
+       hiddenInput.value = e.currentTarget.querySelector('.titulo').innerText;
+     });
+   });
+   
+   select.addEventListener('click', () => {
+     select.classList.toggle('active');
+     opciones.classList.toggle('active');
+     navButton.classList.toggle('active');
+   });
+     </script>
 
      
 
