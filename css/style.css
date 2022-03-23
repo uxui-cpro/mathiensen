@@ -207,11 +207,7 @@ small, .text_small {font-size: var(--overline)}
   margin-right: 64px;
 }
 
-.example {
-  margin: 50px 100px;
-  padding: 100px;
-  border-bottom: 1px solid #eee;
-}
+
 .sk-fold {
   width: 40px;
   height: 40px;
@@ -257,6 +253,8 @@ small, .text_small {font-size: var(--overline)}
   } 
 }
 .example{
+ /* margin: 50px 100px;*/
+  padding: 100px;
   position: relative;
   top: 40%;
   /* left: 0; */
