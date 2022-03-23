@@ -253,16 +253,16 @@ small, .text_small {font-size: var(--overline)}
   } 
 }
 .example{
- /* margin: 50px 100px;*/
-  padding: 100px;
-  position: relative;
-  top: 40%;
-  /* left: 0; */
-  z-index: 999999;
-  width: 100%;
-  text-align: -webkit-center;
-  /* float: left; */
-  margin: 8% auto;
+    /* margin: 50px 100px; */
+    padding: 100px;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    z-index: 999999;
+    width: 100%;
+    text-align: -webkit-center;
+    /* float: left; */
+    margin: 4% auto;
 
 }
 .bg-loading{
