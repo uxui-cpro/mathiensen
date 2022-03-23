@@ -257,15 +257,19 @@ small, .text_small {font-size: var(--overline)}
   } 
 }
 .example{
-  position: absolute;
-  top:30%;
-  left: 33%;
+  position: relative;
+  top: 40%;
+  /* left: 0; */
   z-index: 999999;
+  width: 100%;
+  text-align: -webkit-center;
+  /* float: left; */
+  margin: 8% auto;
 
 }
 .bg-loading{
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   z-index: 9000;
   opacity: 0.8;
   width: 100%;
