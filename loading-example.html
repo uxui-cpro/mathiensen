@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" >
+    <link href="css/icon.css" rel="stylesheet" >
+    <link href="css/controls.css" rel="stylesheet" >
+    <link href="css/searchBarPlp.css" rel="stylesheet" >
+    <link href="css/widgetSelect.css" rel="stylesheet">
+
+    <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<title>Home</title>
+  </head>
+  <body>
+    <div class="example">
+      <div class="sk-fold">
+        <div class="sk-fold-cube"></div>
+        <div class="sk-fold-cube"></div>
+        <div class="sk-fold-cube"></div>
+        <div class="sk-fold-cube"></div>
+      </div>
+    </div>
+<div class="bg-loading"></div>
+
+
+    <div class="topBar">
+  
+      <div class="contTopBar">
+        <div class="contenedor-corp">
+          <form action="">
+            <div class="selectbox">
+              <div class="select" id="select">
+                <div class="contenido-select">
+                  <a href="#" class="opcion">
+                    <div class="contenido-opcion">
+                      <img src="images/flag-cl.png" alt="">
+                      <div class="textos">
+                        <h1 class="titulo">Chile</h1>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <i style="font-weight:bold;" class="icon icon-chevron-down"></i>
+              </div>
+      
+              <div class="opciones" id="opciones">
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-ar.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Argentina</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-bo.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Bolivia</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-br.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Brasil</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-cl.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Chile</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-cn.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">China</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-co.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Colombia</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-cr.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Costa Rica</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-ec.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Ecuador</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-es.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">España</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-gt.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Guatemala</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-hn.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Honduras</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-mx.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">México</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-py.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Paraguay</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-pe.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Perú</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-do.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">República Dominicana</h1>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="opcion">
+                  <div class="contenido-opcion">
+                    <img src="images/flag-uy.png" alt="">
+                    <div class="textos">
+                      <h1 class="titulo">Uruguay</h1>
+                    </div>
+                  </div>
+                </a>
+                               
+
+                
+
+              </div>
+            </div>
+      
+            <input type="hidden" name="pais" id="inputSelect" value="">
+          </form>
+      
+        </div>
+       
+      <div class="loginBox">
+        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+        <div class="loginBox-text">
+        <span class="hola">¡Hola!</span>
+       <span class="sesion"> <a href="login.html">Inicia sesión</a> o <a href="registro1.html">regístrate</a> </span>
+      </div>
+      </div>
+
+<div class="contriesBox" style="display: none;">
+  <span class="msgInfo">Filtra el contenido por país</span>
+  <select class="contries select-css" name="countries" style="height: 22px; margin-top:-4px">
+    <option value="AR">🇦🇷&emsp;Argentina</option>
+    <option value="BO">🇧🇴&emsp;Bolivia</option>
+    <option value="BR">🇧🇷&emsp;Brasil</option>
+    <option value="CL" selected>🇨🇱&emsp;Chile</option>
+    <option value="CH">🇨🇳&emsp;China</option>
+    <option value="CO">🇨🇴&emsp;Colombia</option>
+    <option value="CR">🇨🇴&emsp;Costa Rica</option>
+    <option value="EC">🇪🇨&emsp;Ecuador</option>
+    <option value="ES">🇪🇸&emsp;España</option>
+    <option value="GU">🇬🇹&emsp;Guatemala</option>
+    <option value="HO">🇭🇳&emsp;Honduras</option>
+    <option value="ME">🇲🇽&emsp;México</option>
+    <option value="PA">🇵🇾&emsp;Paraguay</option>
+    <option value="PE">🇵🇪&emsp;Perú</option>
+    <option value="RD">🇩🇴&emsp;República Dominicana</option>
+    <option value="UR">🇺🇾&emsp;Uruguay</option>
+  
+    
+</select>
+  <div id="AR-sel" class="contriesBox-item contriesBox-selected" style="display: none;">
+    <span class="flag">🇦🇷</span>
+    <span class="nameContrie">Argentina</span>  
+  </div>
+
+  <div class="contriesBox-option contriesBox-optionActive" style="display: none;" >
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    <div id="AR" class="contriesBox-item"><span class="flag">🇦🇷&emsp;</span>Argentina</div>
+    </div>
+  </div>
+
+
+
+</div>
+
+ 
+     
+      
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-fixed">
+      
+      <div class="container-fluid">
+       
+        <a class="navbar-brand" href="home.html"><img src="https://www.grupomathiesen.com/wp-content/uploads/2020/07/LOGO-MATHIESEN.png" alt="Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i style="font-weight:bold; color:#fff;" class="icon icon-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown" ><a class="nav-link"href="#">Nosotros</a></li>
+           <li class="nav-item dropdown" style="display:none">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nosotros <i style="font-weight:bold;" class="icon icon-chevron-down"></i>
+              
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark subMenuFullContent" aria-labelledby="navbarDarkDropdownMenuLink">
+                
+                <div class="group-list-margin">
+                <li class="submenu"><a class="dropdown-item" href="#">Visión y Compromiso</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Cultura</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Historia</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Equipo</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Excelencia operacional</a></li>
+                <li class="submenu"><a class="dropdown-item" href="#">Innovación</a></li>
+                </div>
+               
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Producto e Industrias <i style="font-weight:bold;" class="icon icon-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark subMenuFullContent" aria-labelledby="navbarDarkDropdownMenuLink">
+                <div class="group-list group-list-marginFirst">
+                  <li class="submenu"><a class="dropdown-item" href="pdp.html">Alimentos</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Cuidado personal</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Industria Química y aditivos </br> y construcción</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Papeles y Celulosa</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Resinas Plásticas</a></li>
+                </div>
+                <div class="group-list">
+                  <li class="submenu"><a class="dropdown-item" href="#">Construcción</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Cuidado y Limpieza Hogar </br> y Automóvil</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Mantenimiento Industrial</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Pinturas, Tintas y Adhesivos</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Tratamiento de aguas</a></li>
+                </div>
+                <div class="group-list">
+                  <li class="submenu"><a class="dropdown-item" href="#">Curtiembres</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Industria Farmacéutica</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Minería</a></li>
+                  <li class="submenu"><a class="dropdown-item" href="#">Polímeros y Elastómeros</a></li>
+                </div>
+             </ul>
+            </li>
+            <li class="nav-item dropdown responsiveHide" style="display:none"><a class="nav-link "href="#">Empresas Productivas</a></li>
+            <li class="nav-item dropdown" style="display:none"><a class="nav-link"href="#">Aplicaciones </a></li>
+            <li class="nav-item dropdown" style="display:none"><a class="nav-link"href="#">Carrera</a></li>
+            <li class="nav-item dropdown"><a class="nav-link"href="newsList.html">Noticias</a></li>
+            <li class="marginButtonNav"><a href="contacto.html"><button type="button"  style="margin-top: -5px;"class="btn btn-outline-secondary btn-outline-secondary-mathiense">Contacto</button></a>   </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <nav aria-label="breadcrumb" style="margin-top:125px; margin-left: 28px;">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="home.html">Página de inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Sector Alimentos</li>
+      </ol>
+    </nav>
+   <!--<div class="container-flow fullBanner-sm ">
+      <img src="images/Alimentos.jpg" alt="..."/>
+    </div>--> 
+
+
+
+
+  <div class="bbbootstrap">
+    <div class="bbbootstrap-color"></div>
+    <div class="container">
+    
+        <form>
+            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible">
+
+            </span><input type="text" id="Form_Search" value="" placeholder="Descubre más productos" role="searchbox" class="InputBox " autocomplete="off">
+            <input type="submit" id="Form_Go" class="Button" value="Buscar">
+        </form>
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+  <div class="cat-sumary col-12">
+    <h1>Sector Alimentario</h1>
+   <!-- <h2>Presentes en el impulso del sector alimentario</h2>-->
+    <p>
+      Mathiesen ofrece una amplia variedad de materias primas para nuestros clientes del sector Alimentos,
+       sean marcas de empresas líderes a nivel mundial o mezclas específicamente formuladas para sus necesidades,
+        siempre aportando confiabilidad, asesoría y competitividad.
+      </p>
+  </div>
+<!--
+  <div class="elementor-widget-container col-6" >
+    <ul class="work-process-list unstyled">
+             <li>
+       <span class="working-num"> 1 </span>
+       <div class="working-text"> 
+         <strong>Atención personalizada</strong> por profesionales con una vasta experiencia en el sector Cuidado y Limpieza Hogar y Automóvil. Apoyamos a nuestros clientes en términos técnicos y económicos con un equipo especializado para brindar asesoría en uso de materias primas especiales.               </div>
+    </li>
+            <li>
+       <span class="working-num"> 2 </span>
+       <div class="working-text"> 
+         <strong>Amplio portafolio</strong> con variedad de materias primas de alta tecnología y commodities.                </div>
+    </li>
+            <li>
+       <span class="working-num"> 3 </span>
+       <div class="working-text"> 
+         <strong>Entrega de suministro constante y confiable</strong>, gracias a nuestra cobertura regional hemos desarrollado una logística competitiva, que permite ofrecer productos de stock local y también de importación directa, según sean los requerimientos de nuestros clientes.               </div>
+    </li>
+            <li>
+       <span class="working-num"> 4 </span>
+       <div class="working-text"> 
+         <strong>Alianzas con proveedores de primer nivel</strong> trabajamos con proveedores reconocidos a nivel mundial por su calidad, trayectoria y asistencia técnica. Esto permite a nuestros clientes del sector mejorar el rendimiento de sus productos, dar características especiales a productos regulares, o bien, desarrollar nuevas formulaciones. 
+       </div>
+    </li>
+  
+</ul>
+</div>
+-->
+</div>
+</div>
+
+<div class="container">
+      <div class="row">
+        
+     
+     
+
+  <div class="col-xl-2 col-md-12 aside-plp">
+    <div class="filterTitle">Filtros</div>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Líneas de Productos
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <label class="control control--checkbox">Lacteos
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+            <label class="control control--checkbox">Panadería y repostería
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+
+            <label class="control control--checkbox">Postres
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+
+
+            <label class="control control--checkbox">Bebestibles
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+
+
+            <label class="control control--checkbox">Confitería
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+
+            <label class="control control--checkbox">Cárnicos y embutidos
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+
+            <label class="control control--checkbox">Snack
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+          
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Filtro Item #2
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <label class="control control--checkbox">item filtro #2
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+            <label class="control control--checkbox">item filtro #2
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+
+            <label class="control control--checkbox">item filtro #2
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+          
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Filtro Item #3
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <label class="control control--checkbox">item filtro #3
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+            <label class="control control--checkbox">item filtro #3
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+
+            <label class="control control--checkbox">item filtro #3
+              <input type="checkbox"/>
+              <div class="control__indicator"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+    <div class="col-xl-10 col-md-12">
+      <div class="row topFilter">
+        <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8  position-relative numberItem">
+          12 de 34 productos
+      </div>
+        <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2  position-relative">
+          
+<select  id="OrdenoMetro" name="OrdenoMetro" class="select-css">
+    <option style="display:block;width:100%;" value="1" selected="">Nombre A -&gt; Z</option>
+    <option style="display:block;width:100%;" value="2">Nombre Z -&gt; A</option>
+  </select>
+        </div>
+        <div class=" col-sm-3 col-md-3 col-lg-2 col-xl-2  position-relative">
+            
+          <select id="OrdenoMetroCant" name="OrdenoMetroCant"  class="select-css">
+    
+            <option value="12" selected="">12</option>
+              <option value="24">24</option>
+              <option value="48">48</option>
+              <option value="999999999999999999999999">TODOS</option>
+          </select>
+
+        </div>
+    </div>
+     
+   
+      <div class="cont-product-cardInfo">
+        <div class="data-info">
+          <div class="imgPlp">
+            <img src="https://dummyimage.com/135x135/ccc/fff" />
+          </div>
+          <div class="cont-textInfo">
+            <span class="pdpCat">Sector de Alimentos</span>
+            <h2>Leche entera</h2>
+            <span class="idPlp">COD: 110230</span> 
+            <div class="descriptionPlp">
+              Bayferrox® 110 M es un pigmento de óxido de hierro rojo amarillento. Pertenece a la familia de Pigmentos de Alto Desempeño y atiende a los más altos requisitos necesarios para la industria de pinturas y recubrimientos. Además de eso,
+            </div>
+          </div>
+         
+        </div>
+       <div class="row ">
+        <!--<div class="col-12 productItem "><div class="productItem-inner"><b>llave: </b>valor</div></div>--> 
+        <div class="col-3   productItem"><div class="productItem-inner"><span>llave: </span>valor</div></div> 
+         <div class="col-3   productItem"><div class="productItem-inner"><span>llave: </span>valor</div></div> 
+         <div class="col-3  productItem "><div class="productItem-inner"><span>llave: </span>valor</div></div> 
+         <div class="col-3  productItem "><div class="productItem-inner"><span>llave: </span>valor</div></div> 
+        
+       </div>
+       
+       <div class="contButton"  >
+      
+          
+          <div class="col-xl-9 col-md-9 col-sm-6" style=" float:left; padding-top: 16px;  box-sizing: border-box;" >
+            <button type="button" class="btn btn-primar btn-primary-mat">Solicitar una cotización</button>
+          </div> 
+        
+          <div class="col-xl-3 col-md-3 col-sm-6" style=" float:left; padding-top: 16px;  box-sizing: border-box;" >
+              <button type="button" class="btn btn-primary soft-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más</button>
+          </div>
+       
+       
+       </div>
+      </div>
+<!-- Modal -->
+<div  class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <!--Cont PDP-->
+       <div class="container contPdp" >
+        <div class="row">
+          <div class="col-xl-12 " >
+          <div class="col-xl-12 col-md-12" style="border-bottom: solid 1px #c3c3c3; margin-bottom: 24px; padding-bottom: 24px;">
+            <div class="row">
+              <!--div class="col-xl-9 col-md-6 col-sm-12" style="float:left">
+                <span class="pdpCat">Sector de Alimentos</span>
+                <h1>Leche entera</h1>
+                <span class="pdpId">COD: 110230</span>
+              </div-->
+    <div class="col-xl-4 col-md-4 col-sm-12 imgPlp-modal">
+     
+        <img src="https://dummyimage.com/468x468/ccc/fff" />
+
+        <div class="downloadFile">
+          <div class="downloadFile-inner">
+            <h2>Documentos</h2>
+            <span class="iconFile">
+              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon-sc-11g2u8u-0 kxjGOY" viewBox="0 0 24 24" data-icon-name="file24"><path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9l-7-7z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13 2v7h7" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+            <span> 2 documentos</span>
+            <p>  Para ver los archivos <a href="registro1.html">registrate</a>  o  <a href="loging.html">inicia sesión</a> </p>
+          </div>
+        </div>
+      
+    </div>
+              <div class="col-xl-8 col-md-8 col-sm-12" style=" float:left;" >
+                  <span class="pdpCat">Sector de Alimentos</span>
+                  <h2>Leche entera</h2>
+                  <span class="pdpId">COD: 110230</span>
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                     nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                     deserunt mollit anim id est laborum.</p>
+          
+
+                <!--div class=" listItem"-->
+                <div class="col-3   productItem"><div class="productItem-inner"><span>llave: </span>valor</div></div>
+                <div class="col-3   productItem"><div class="productItem-inner"><span>llave: </span>valor</div></div>
+                <div class="col-3   productItem"><div class="productItem-inner"><span>llave: </span>valor</div></div>
+                <div class="col-3   productItem"><div class="productItem-inner"><span>llave: </span>valor</div></div>
+                <!--/div-->
+               
+               
+
+               
+                <button type="button" class="btn btn-primar btn-primary-mat btn-primary-matInModal">Solicitar una cotización</button>
+
+
+                
+
+              </div>
+
+
+
+            </div>
+    
+    
+          </div>
+         
+          <!--div class="col-xl-5 col-md-12 downloadFile">
+            <div class="downloadFile-inner">
+              <h2>Documentos</h2>
+              <span class="iconFile">
+                <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon-sc-11g2u8u-0 kxjGOY" viewBox="0 0 24 24" data-icon-name="file24"><path d="M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9l-7-7z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13 2v7h7" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+              <span> 2 documentos</span>
+              <span>  Para ver los archivos <a href="registro1.html">registrate</a>  o  <a href="#">inicia sesión</a> </span>
+            </div>
+          </div-->
+          
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12" style="padding-left: 30px; padding-right: 30px; box-sizing: border-box;">
+            <h2>Product Description</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+               nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+               deserunt mollit anim id est laborum.</p>
+    
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                 nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                 deserunt mollit anim id est laborum.</p>
+    
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                   deserunt mollit anim id est laborum.</p>
+    
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                     nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                     deserunt mollit anim id est laborum.</p>
+    
+          </div>
+        </div>
+      </div>
+     
+
+        <!--Cont PDP-->
+
+
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal -->
+
+
+    
+    </div>
+    </div>
+</div>
+<div class="container-fluid preFooter overlay-gradient">
+  <div class="row">
+  </div>
+</div>
+
+  <!-- FOOTER -->
+  <footer class="w-100 py-4 flex-shrink-0">
+    <div class="container py-4">
+        <div class="row gy-4 gx-5">
+            <div class="col-lg-4 col-md-6">
+                <h5 class="h1 text-white"><img src="images/logo-ondark.png" style="width:75%;"/></h5>
+                <p class="small text-muted">Velamos por el abastecimiento de insumos a las diferentes industrias y mercados en los cuales participamos, contribuyendo al negocio de nuestros clientes y al abastecimiento oportuno del aparato productivo del país.</p>
+    </div>
+            <div class="col-lg-2 col-md-6">
+                <h5 class="text-white mb-3">Ayuda</h5>
+                <ul class="list-unstyled text-muted">
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                    <li><a href="#">Politicas de privacidad</a></li>
+                    <li><a href="#">Canal ético</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h5 class="text-white mb-3">Comunidad</h5>
+                <ul class="list-unstyled text-muted">
+                <li><a href="#">Siguenos en linkedin</a></li>
+                   
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-white mb-3">Registrate</h5>
+                <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="registro1.html"><button type="button"  style="margin-top: -5px;"class="btn btn-outline-secondary btn-outline-secondary-mathiense-registro">Registrate</button></a>   
+         
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+ 
+
+
+     
+  <script>
+    const select = document.querySelector('#select');
+   const opciones = document.querySelector('#opciones');
+   const contenidoSelect = document.querySelector('#select .contenido-select');
+   const hiddenInput = document.querySelector('#inputSelect');
+   const navButton = document.querySelector('#navbar-toggler');
+   
+   document.querySelectorAll('#opciones > .opcion').forEach((opcion) => {
+     opcion.addEventListener('click', (e) => {
+       e.preventDefault();
+       contenidoSelect.innerHTML = e.currentTarget.innerHTML;
+       select.classList.toggle('active');
+       opciones.classList.toggle('active');
+       navButton.classList.toggle('active');
+       hiddenInput.value = e.currentTarget.querySelector('.titulo').innerText;
+     });
+   });
+   
+   select.addEventListener('click', () => {
+     select.classList.toggle('active');
+     opciones.classList.toggle('active');
+     navButton.classList.toggle('active');
+   });
+     </script>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
